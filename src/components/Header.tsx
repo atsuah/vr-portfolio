@@ -46,18 +46,8 @@ const Header: React.FC = () => {
 
   return (
     <header className="fixed top-0 left-0 w-full bg-gray-800/90 backdrop-blur-lg text-white z-50 border-b border-gray-600">
-      {/* Menu Bar */}
-      <div className="bg-gray-900 border-b border-gray-700 px-4 py-1">
-        <div className="flex items-center justify-between text-xs font-mono">
-          <div className="text-gray-400">
-            Unity 2022.3.1f1 - Portfolio Scene
-          </div>
-          <div className="text-cyan-400">
-            AGNES-CYBIL ATSUAH - XR DEVELOPER
-          </div>
-        </div>
-      </div>
-
+      
+      
       <nav className="max-w-7xl mx-auto flex items-center px-6 py-3">
         {/* Project Name + Status */}
         <div className="flex items-center space-x-4">
