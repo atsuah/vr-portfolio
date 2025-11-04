@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A modern, immersive portfolio website to showcase virtual reality projects.",
   "private": true,
-  "homepage": "https://atsuah.github.io/vr-portfolio",
+  "homepage": "https://atsuah.github.io/vr-portfolio-v2",
   "devDependencies": {
     "@types/react": "^18.3.26",
     "@types/react-dom": "^18.3.7",

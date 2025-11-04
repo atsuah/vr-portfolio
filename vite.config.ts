@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/vr-portfolio/', // Match your repository name
+  base: '/vr-portfolio-v2/', // Match your repository name
   build: {
     outDir: 'dist',
     sourcemap: false,
