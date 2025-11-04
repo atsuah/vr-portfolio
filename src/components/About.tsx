@@ -36,14 +36,14 @@ const About: React.FC = () => {
               {/* Profile Image */}
               <div className="flex-shrink-0">
                 <div className="w-32 h-32 rounded-lg border-2 border-cyan-500/50 overflow-hidden bg-gray-700">
-                  <img 
-                    src="/media/fallback-profile.jpg"
-                    alt="Agnes-Cybil"
-                    className="w-full h-full object-cover"
-                    onError={(e) => {
-                      e.currentTarget.src = "/media/fallback-profile.jpg";
-                    }}
-                  />
+         <img 
+  src="/media/profile/profile-image.jpg" 
+  alt="Agnes-Cybil"
+  className="w-full h-full object-cover"
+  onError={(e) => {
+    e.currentTarget.src = "/media/fallback-profile.jpg";
+  }}
+/>
                 </div>
                 <div className="mt-2 text-left">
                   <div className="text-cyan-400 font-mono text-sm">Agnes-Cybil Atsuah</div>
