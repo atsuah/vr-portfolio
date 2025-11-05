@@ -37,7 +37,7 @@ const About: React.FC = () => {
               <div className="flex-shrink-0">
                 <div className="w-32 h-32 rounded-lg border-2 border-cyan-500/50 overflow-hidden bg-gray-700">
          <img 
-  src="/media/profile/profile-image.jpg" 
+  src="/vr-portfolio/media/profile/profile-image.jpg" 
   alt="Agnes-Cybil"
   className="w-full h-full object-cover"
   onError={(e) => {

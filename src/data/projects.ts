@@ -10,7 +10,7 @@ export const PROJECTS: Project[] = [
       "Inspired by Animal Crossing, Studio Ghibli films, the Dancing Fox short story, and Tunic. Merged nature with fantasy while maintaining a low-poly style. Experimented with afro hair modelling.",
     tags: ["BLENDER", "3D_MODELING", "LOW-POLY", "ANIMATION", "DESIGN"],
     media: [
-      { type: MediaType.Video, src: "/media/TheFox/TheFoxTrailer.mp4", alt: "The Fox Trailer" }
+      { type: MediaType.Video, src: "/vr-portfolio/media/TheFox/TheFoxTrailer.mp4", alt: "The Fox Trailer" }
     ],
     links: { live: "#", github: "#" }
   },
@@ -23,7 +23,7 @@ export const PROJECTS: Project[] = [
       "An educational VR experience in Unity with Meta XR SDK. Designed for students and educators to explore historical artifacts interactively.",
     tags: ["UNITY", "VR", "EDUCATIONAL", "XR", "MUSEUM"],
     media: [
-      { type: MediaType.Image, src: "/media/VRMuseum/VRMuseum.jpg", alt: "VR Museum Screenshot" }
+      { type: MediaType.Image, src: "/vr-portfolio/media/VRMuseum/VRMuseum.jpg", alt: "VR Museum Screenshot" }
     ],
     links: { live: "#", github: "#" }
   },
@@ -36,7 +36,7 @@ export const PROJECTS: Project[] = [
       "Players must navigate treacherous icy terrain, tricky platforms, and clever environmental puzzles, balancing the egg's fragile form. Teamwork is key.",
     tags: ["GAME_DESIGN", "CO-OP", "PUZZLE", "PLATFORMER", "UNITY"],
     media: [
-      { type: MediaType.Video, src: "/media/Eggsile/EggsileTrailer.mp4", alt: "Eggsile Trailer" }
+      { type: MediaType.Video, src: "/vr-portfolio/media/Eggsile/EggsileTrailer.mp4", alt: "Eggsile Trailer" }
     ],
     links: { live: "#", github: "#" }
   },
@@ -49,7 +49,7 @@ export const PROJECTS: Project[] = [
       "A UX-driven app targeted at users seeking therapeutic VR solutions. Focus on immobilized users and improving usability, interaction, and realism through testing.",
     tags: ["UNITY", "VR", "THERAPEUTIC", "UX", "ACCESSIBILITY"],
     media: [
-      { type: MediaType.Video, src: "/media/LumicareVR/LumicareVR.mp4", alt: "Lumicare VR Video" }
+      { type: MediaType.Video, src: "/vr-portfolio/media/LumicareVR/LumicareVR.mp4", alt: "Lumicare VR Video" }
     ],
     links: { live: "#", github: "#" }
   },
@@ -62,7 +62,7 @@ export const PROJECTS: Project[] = [
       "Created textured grass terrains, hills, sunset skyboxes, free village house assets, leaves via particle systems, Mixamo characters, and immersive sound.",
     tags: ["UNITY", "3D", "ANIMATION", "ENVIRONMENT", "ASSETS"],
     media: [
-      { type: MediaType.Video, src: "/media/AssetCreation/GameRecording.mp4", alt: "Asset Creation Recording" }
+      { type: MediaType.Video, src: "/vr-portfolio/media/AssetCreation/GameRecording.mp4", alt: "Asset Creation Recording" }
     ],
     links: { live: "#", github: "#" }
   }
