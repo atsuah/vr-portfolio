@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
         <div className="text-center space-y-3">
           {/* Copyright */}
           <p className="text-gray-400 font-mono text-sm">
-            © {currentYear} SITE BUILT BY AGNES-CYBIL_ATSUAH USING REACT AND NETLIFY
+            © {currentYear} SITE BUILT BY AGNES-CYBIL_ATSUAH USING REACT, HOSTED BY GITHUB PAGES
           </p>
           
           

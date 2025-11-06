@@ -8,16 +8,16 @@ export const Projects: React.FC = () => {
   const [selectedProject, setSelectedProject] = useState<number | null>(null);
 
   // Function to get project preview image
-  const getProjectPreview = (projectId: number) => {
-    const previewImages: { [key: number]: string } = {
-      0: "/media/TheFox/Fox.png", // The Fox
-      1: "/media/VRMuseum/VRMuseum.jpg", // VR Museum
-      2: "/media/Eggsile/Eggsile.png", // Eggsile
-      3: "/media/LumicareVR/LumicareVR.png", // LumicareVR
-      4: "/media/AssetCreation/AssetCreation.png" // Asset Creation
-    };
-    return previewImages[projectId] || "/media/fallback-preview.jpg";
+const getProjectPreview = (projectId: number) => {
+  const previewImages: { [key: number]: string } = {
+    0: "/vr-portfolio/media/TheFox/Fox.png", // The Fox
+    1: "/vr-portfolio/media/VRMuseum/VRMuseum.jpg", // VR Museum
+    2: "/vr-portfolio/media/Eggsile/Eggsile.png", // Eggsile
+    3: "/vr-portfolio/media/LumicareVR/LumicareVR.png", // LumicareVR
+    4: "/vr-portfolio/media/AssetCreation/AssetCreation.png" // Asset Creation
   };
+  return previewImages[projectId] || "/vr-portfolio/media/fallback-preview.jpg";
+};
 
   return (
     <section id="projects" className="bg-gray-900 text-white py-16 px-4 relative overflow-hidden min-h-screen">
@@ -80,7 +80,7 @@ export const Projects: React.FC = () => {
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   onError={(e) => {
                     // Fallback if image fails to load
-                    e.currentTarget.src = "/media/fallback-preview.jpg";
+                    e.currentTarget.src = "/vr-portfolio/media/fallback-preview.jpg";
                   }}
                 />
                 {/* Overlay on hover */}
@@ -143,12 +143,12 @@ export const Projects: React.FC = () => {
         </div>
       </div>
 
-      {selectedProject !== null && (
-        <ProjectModal
-          project={PROJECTS.find(p => p.id === selectedProject)!}
-          onClose={() => setSelectedProject(null)}
-        />
-      )}
+{selectedProject !== null && (
+  <ProjectModal
+    project={PROJECTS.find(p => p.id === selectedProject)!}
+    onClose={() => setSelectedProject(null)}
+  />
+)}
     </section>
   );
 };
