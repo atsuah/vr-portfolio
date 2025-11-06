@@ -114,14 +114,7 @@ const getProjectPreview = (projectId: number) => {
                   )}
                 </div>
 
-                {/* Project Status */}
-                <div className="flex items-center justify-between text-xs font-mono">
-                  <div className="flex items-center space-x-1">
-                    <div className="w-1.5 h-1.5 bg-green-500 rounded-full"></div>
-                    <span className="text-green-400">Ready</span>
-                  </div>
-                  <div className="text-gray-400">View Details →</div>
-                </div>
+              
               </div>
             </div>
           ))}
