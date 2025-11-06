@@ -86,7 +86,7 @@ const getProjectPreview = (projectId: number) => {
                 {/* Overlay on hover */}
                 <div className="absolute inset-0 bg-cyan-500/0 group-hover:bg-cyan-500/10 transition-all duration-300 flex items-center justify-center">
                   <div className="bg-black/80 text-cyan-400 font-mono text-xs px-3 py-2 rounded border border-cyan-500/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    CLICK TO INSPECT
+                    INSPECT
                   </div>
                 </div>
               </div>
