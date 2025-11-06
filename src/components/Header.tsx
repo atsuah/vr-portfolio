@@ -57,7 +57,7 @@ const Header: React.FC = () => {
     },
     { 
       name: "GITHUB", 
-      href: "https://github.com/atsuah", // Replace with your actual GitHub URL
+      href: "https://github.com/atsuah",
       external: true 
     },
   ];
@@ -84,11 +84,6 @@ const Header: React.FC = () => {
             <h1 className="text-lg font-mono font-bold tracking-wide">
               WELCOME
             </h1>
-          </div>
-
-          <div className="flex items-center space-x-2 bg-gray-700/80 px-3 py-1 rounded border border-gray-600">
-            <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-            <span className="text-green-400 font-mono text-xs">ACTIVE</span>
           </div>
         </div>
 
@@ -151,24 +146,12 @@ const Header: React.FC = () => {
                 )}
               </li>
             </ul>
-
-            {/* Engine status */}
-            <div className="hidden md:flex items-center space-x-2 ml-6 bg-gray-700/80 px-3 py-1 rounded border border-gray-600">
-              <div className="w-2 h-2 bg-cyan-500 rounded-full animate-pulse"></div>
-              <span className="text-cyan-400 font-mono text-xs">VR_READY</span>
-            </div>
           </>
         )}
 
         {/* Mobile Navigation */}
         {isMobile && (
-          <div className="ml-auto flex items-center space-x-4">
-            {/* Engine status for mobile */}
-            <div className="flex items-center space-x-2 bg-gray-700/80 px-3 py-1 rounded border border-gray-600">
-              <div className="w-2 h-2 bg-cyan-500 rounded-full animate-pulse"></div>
-              <span className="text-cyan-400 font-mono text-xs">VR_READY</span>
-            </div>
-
+          <div className="ml-auto">
             {/* Burger Menu Button */}
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
